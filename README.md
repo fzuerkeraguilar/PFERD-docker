@@ -14,5 +14,5 @@ docker run -d \
     -v /path/to/config.cfg=/pferd/pferd.cfg \
     -v /path/to/working-dir=/pferd/working-dir \
     --restart unless-stopped
-
+    fzuerkeraguilar/pferd:latest
 ```
