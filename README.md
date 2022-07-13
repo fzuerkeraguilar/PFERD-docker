@@ -13,6 +13,6 @@ docker run -d \
     -e CRON_SCHEDULE="0 1 * * *" \
     -v /path/to/config.cfg=/pferd/pferd.cfg \
     -v /path/to/working-dir=/pferd/working-dir \
-    --restart unless-stopped
+    --restart unless-stopped \
     fzuerkeraguilar/pferd:latest
 ```
